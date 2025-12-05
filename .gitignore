@@ -5,6 +5,7 @@
 /tmp
 /out-tsc
 /bazel-out
+# Note: /docs is NOT ignored - it's needed for GitHub Pages deployment
 
 # Node
 /node_modules

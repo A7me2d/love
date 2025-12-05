@@ -10,5 +10,16 @@
       "source": "/(.*)",
       "destination": "/index.html"
     }
+  ],
+  "headers": [
+    {
+      "source": "/docs/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "max-age=0, s-maxage=3600, stale-while-revalidate"
+        }
+      ]
+    }
   ]
 }

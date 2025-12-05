@@ -26,7 +26,7 @@ A beautiful, modern love celebration website built with Angular. Enter the name 
 #### 2. **Configure Build Settings**
    - **Framework Preset**: Angular
    - **Build Command**: `npm run build`
-   - **Output Directory**: `dist/webtest/browser`
+   - **Output Directory**: `docs`
    - **Install Command**: `npm install`
 
 #### 3. **Environment Variables** (if needed)
@@ -57,7 +57,7 @@ Navigate to `http://localhost:4200/`
 ```bash
 npm run build
 ```
-Output will be in `dist/webtest/browser/`
+Output will be in `docs/`
 
 ---
 
@@ -148,13 +148,13 @@ This project is created for celebration purposes. Feel free to customize and dep
 
 ### Build fails on Vercel
 - Ensure `package.json` has all dependencies
-- Check that `angular.json` is properly configured
+- Check that `angular.json` is properly configured with `"outputPath": "docs"`
 - Verify Node.js version compatibility (18+ recommended)
 
 ### Site shows blank page
 - Check browser console for errors
-- Ensure `dist/webtest/browser/` is the correct output directory
-- Verify `vercel.json` rewrites configuration
+- Ensure `docs/` is the correct output directory
+- Verify `vercel.json` has `"outputDirectory": "docs"`
 
 ### Animations not working
 - Clear browser cache

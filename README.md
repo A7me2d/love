@@ -46,7 +46,7 @@ Navigate to `http://localhost:4200/`. The application will automatically reload 
 npm run build
 ```
 
-Build artifacts will be stored in `dist/webtest/browser/`.
+Build artifacts will be stored in `docs/`.
 
 ---
 

@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "dist/webtest/browser",
+  "outputDirectory": "docs",
   "framework": "angular",
   "env": {
     "NODE_ENV": "production"
